@@ -1,0 +1,30 @@
+body {
+  
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px; 
+  margin-top: 30px;
+ 
+}
+header {
+  display: flex;
+  background-color: rgb(204, 198, 189);
+}
+#logo {
+  font-weight: bold;
+}
+.lists {
+display: flex;
+}
+li{
+    flex-direction: row;
+    list-style-type: none;
+
+}
+a:hover{
+    background-color: darkgreen;
+}
