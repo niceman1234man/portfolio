@@ -1,6 +1,7 @@
 body {
   
   box-sizing: border-box;
+  margin: 0% 25% 0% 25%;
 }
 
 a {
@@ -11,20 +12,39 @@ a {
  
 }
 header {
-  display: flex;
+  /* display: flex; */
   background-color: rgb(204, 198, 189);
+  margin-bottom: 0%;
+  padding: 20%;
+
 }
 #logo {
   font-weight: bold;
 }
-.lists {
-display: flex;
-}
-li{
-    flex-direction: row;
-    list-style-type: none;
 
+li{
+    
+    list-style-type: none; 
+    padding: 10%;
 }
+
+
 a:hover{
-    background-color: darkgreen;
+    background-color: rgb(206, 214, 206);
+}
+.section1
+{
+  float: left;
+  padding: 10px;
+}
+.section2{
+  float: right;
+}
+main{
+  margin-top: 0%;
+  padding: 10%;
+  background-color: rgb(204, 198, 189);
+}
+img:hover{
+  background-color: cornflowerblue;
 }
