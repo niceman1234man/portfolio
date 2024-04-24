@@ -1,7 +1,11 @@
 body {
   
-  box-sizing: border-box;
-  margin: 0% 25% 0% 25%;
+  /* box-sizing: border-box;
+  margin: 0% 25% 0% 25%; */
+  width: 375px;
+  height: 604px;
+  padding: 114px 24px 114px 24px;
+  gap: 12px;
 }
 
 a {
@@ -47,4 +51,33 @@ main{
 }
 img:hover{
   background-color: cornflowerblue;
+}
+.heading{
+  width: 327px;
+  height: 150px;
+  font-weight: 700;
+  line-height: 52px;
+  size: 40px;
+  
+  color: #172B4D;
+
+
+}
+.paragraph{
+  width: 327px;
+  height: 146px;
+  font-weight: 400;
+  size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+.address{
+  width: 200px;
+  height: 24px;
+  gap: 16px;
+}
+.icons{
+  width: 200px;
+  height: 20px;
+  color: #505F79;
 }
