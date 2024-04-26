@@ -18,13 +18,15 @@ a {
 header {
   /* display: flex; */
   background-color: rgb(204, 198, 189);
-  margin-bottom: 0%;
-  padding: 20%;
+  /* margin-bottom: 0%;
+  padding: 20%; */
+  display: inline;
+  width: 375px;
+  height: 48px;
+  margin-top: 44px;
 
 }
-#logo {
-  font-weight: bold;
-}
+
 
 li{
     
@@ -37,16 +39,22 @@ a:hover{
     background-color: rgb(206, 214, 206);
 }
 .section1
-{
+{width: 100px;
+  height: 40px;
+  margin-top: 4px;
+  margin-left: 12px;
+  
   float: left;
-  padding: 10px;
+  padding: 10px 12px 10px 12px ;
 }
 .section2{
   float: right;
 }
 main{
-  margin-top: 0%;
-  padding: 10%;
+width: 375px;
+height: 604px;
+  margin-top: 92px;
+ padding: 114px 24px 114px 24px;
   background-color: rgb(204, 198, 189);
 }
 img:hover{
@@ -57,7 +65,7 @@ img:hover{
   height: 150px;
   font-weight: 700;
   line-height: 52px;
-  size: 40px;
+  font-size: 40px;
   
   color: #172B4D;
 
@@ -67,7 +75,7 @@ img:hover{
   width: 327px;
   height: 146px;
   font-weight: 400;
-  size: 16px;
+  font-size: 16px;
   line-height: 24px;
   color: #344563;
 }
