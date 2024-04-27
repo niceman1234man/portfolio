@@ -2,12 +2,15 @@ body{
    margin: 0% 35% ;
   overflow-x: hidden;
   padding: 14px 50px; 
+  box-sizing: border-box;
    
 }
 header{
   width: 375px;
   height: 92px;
   background-color: aliceblue;
+  padding-left: 10px;
+  padding-right: 10px;
 
 }
 .status-bar{
@@ -17,6 +20,7 @@ header{
   padding-top: 20px;
   
 }
+
 #time-style{
 width: 54px;
 height: 21px;
@@ -34,10 +38,18 @@ flex: 1;
   display: flex;
 
 }
+.tool-bar img:hover{
+  background-color: #344563;
+  transition: 0.3;
+  color: white;
+}
 .tool-bar h1{
   flex: 10;
   width: 100px;
   height: 40px;
+  margin-right: 180px;
+  padding: 8px;
+  
 }
 .tool-bar #image{
   flex: 1;
@@ -47,6 +59,12 @@ flex: 1;
   border-bottom: 8px;
 
 }
+.tool-bar #logo:hover{
+background-color: cadetblue;
+transition: 0.3;
+color: white;
+}
+
 .headline{
   width: 375px;
   height: 64px;
@@ -83,6 +101,8 @@ main{
 width: 375px;
 height: 610px;
 overflow-x: hidden;
+padding-left: 10px;
+padding-right: 10px;
  
 
 }
@@ -97,4 +117,19 @@ overflow-x: hidden;
 }
 .icons img:hover{
   background-color: cadetblue;
+  transition: 0.3;
+  color: white;
+}
+@media screen and (max-width: 767px) and (min-width: 375px) {
+  .tool-bar #image, .tool-bar h1{
+    flex: 100%;
+  }
+}
+@media screen and (min-width:768px){
+  .tool-bar #image{
+    flex: 10%;
+  }
+  .tool-bar h1{
+   flex: 90%;
+  }
 }
