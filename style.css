@@ -1,12 +1,13 @@
-body {
+ body {
   
-  /* box-sizing: border-box;
-  margin: 0% 25% 0% 25%; */
+  box-sizing: border-box;
+  
   width: 375px;
   height: 604px;
   padding: 114px 24px 114px 24px;
   gap: 12px;
-}
+  margin: 0% 20% 0% 20%;
+} 
 
 a {
   text-decoration: none;
@@ -15,17 +16,7 @@ a {
   margin-top: 30px;
  
 }
-header {
-  /* display: flex; */
-  background-color: rgb(204, 198, 189);
-  /* margin-bottom: 0%;
-  padding: 20%; */
-  display: inline;
-  width: 375px;
-  height: 48px;
-  margin-top: 44px;
 
-}
 
 
 li{
@@ -33,29 +24,56 @@ li{
     list-style-type: none; 
     padding: 10%;
 }
-
+header{
+  width: 375px;
+  height: 92px;
+}
 
 a:hover{
     background-color: rgb(206, 214, 206);
 }
 .section1
-{width: 100px;
-  height: 40px;
-  margin-top: 4px;
-  margin-left: 12px;
+{
   
-  float: left;
-  padding: 10px 12px 10px 12px ;
+  width: 375px;
+  height: 48px;
+  display: inline;
+
+}
+.section1 #time{
+  width: 54px;
+  height: 21px;
+}
+.section1 #display{
+  width: 66px;
+  height: 11px;
+}
+.section2 h1{
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #6070ff;
+  line-height: 111%;
+ 
 }
 .section2{
-  float: right;
+  
+  width: 375px;
+  height: 48px;
+ 
+}
+svg{ 
+  
+  margin-top: 6px;
+  margin-left: 3px;
+  color: #6070ff;
 }
 main{
 width: 375px;
 height: 604px;
-  margin-top: 92px;
+
+
  padding: 114px 24px 114px 24px;
-  background-color: rgb(204, 198, 189);
 }
 img:hover{
   background-color: cornflowerblue;
@@ -63,26 +81,39 @@ img:hover{
 .heading{
   width: 327px;
   height: 150px;
+ 
+
+} 
+.heading h1{
   font-weight: 700;
   line-height: 52px;
   font-size: 40px;
-  
+  line-height: 130%;
   color: #172B4D;
-
 
 }
 .paragraph{
   width: 327px;
   height: 146px;
+ 
+}
+.paragraph p{
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  line-height: 150%;
   color: #344563;
 }
 .address{
   width: 200px;
   height: 24px;
-  gap: 16px;
+
+}
+.address h2{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7f8cff;
 }
 .icons{
   width: 200px;
