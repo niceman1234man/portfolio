@@ -1,10 +1,12 @@
 body {
-  margin: 0% 20%;
+  /* margin: 0% 20%; */
  
   padding: 0% 10%;
   box-sizing: border-box;
+  
 
- height: 100%;
+
+ 
 }
 
 header {
@@ -15,22 +17,8 @@ header {
   padding-right: 8%;
   
 }
-.status-bar {
-  width: 60%;
-  height: 50%;
-  display: flex;
-  padding-top: 3%;
-  
-  padding-right: 5%;
-}
 
-#time-style {
-  width: 50%;
-  height: 10%;
-  flex: 80%;
-  padding-left: 5%;
- 
-}
+
 #othr-style {
   width: 50%;
   height: 10%;
@@ -42,6 +30,7 @@ header {
 .tool-bar {
   width: 60%;
   height: 50%;
+  padding-top: 2%;
 
 }
 .tool-bar img:hover {
@@ -109,6 +98,7 @@ main {
   overflow-x: hidden;
  
   background-image: url('images/background.jpg');
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .icons {
