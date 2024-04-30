@@ -1,8 +1,6 @@
 body {
-
   padding: 0% 10%;
   box-sizing: border-box;
-
 }
 
 header {
@@ -11,43 +9,46 @@ header {
   background-color: white;
   padding-left: 5%;
   padding-right: 8%;
-  
 }
-
 
 #othr-style {
   width: 50%;
   height: 10%;
   flex: 20%;
- padding-right: 5%;
-
- 
+  padding-right: 5%;
 }
+
 .tool-bar {
   width: 60%;
   height: 50%;
   padding-top: 2%;
-
 }
+
+.icons img {
+  padding: 3%;
+  display: inline;
+}
+
 .tool-bar img:hover {
   background-color: #344563;
   transition: 0.3;
   color: white;
 }
+
 .tool-bar #logo {
   float: left;
   width: 12%;
   height: 12%;
-  
   padding: 2%;
 }
+
 .tool-bar #image {
-  float:right ;
+  float: right;
   width: 12%;
   height: 12%;
   padding: 2%;
- 
 }
+
 .tool-bar #logo:hover {
   background-color: cadetblue;
   transition: 0.3;
@@ -58,6 +59,7 @@ header {
   width: 60%;
   height: 13%;
 }
+
 .heading {
   width: 70%;
   height: 20%;
@@ -66,8 +68,9 @@ header {
   font-size: 1.5em;
   line-height: 130%;
   color: #172b4d;
-  font-family:'Times New Roman', Times, serif
+  font-family: "Times New Roman", Times, serif;
 }
+
 .paragraph {
   width: 70%;
   height: 50%;
@@ -76,7 +79,7 @@ header {
   line-height: 150%;
   color: #344563;
 }
-  
+
 .address {
   width: 50%;
   height: 5%;
@@ -85,44 +88,44 @@ header {
   line-height: 150%;
   color: #7f8cff;
 }
+
 main {
- 
   width: 100%;
   height: 90%;
   padding-left: 5%;
   padding-right: 8%;
   overflow-x: hidden;
- 
-  background-image: url('images/background.jpg');
+  background-image: url("images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .icons {
   width: 100%;
   height: 12%;
 }
-.icons img {
-  padding: 3%;
-  display: inline;
-}
+
 .icons img:hover {
   background-color: cadetblue;
   transition: 0.3;
   color: white;
 }
+
 @media screen and (max-width: 767px) and (min-width: 375px) {
- header,main{
- 
-  color: white;
- }
-}
-@media screen and (min-width: 768px) {
-  header,main{
-   
+  header,
+  main {
     color: white;
-   }
-   body{
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header,
+  main {
+    color: white;
+  }
+
+  body {
     max-width: 100%;
     height: 100%;
-   }
+  }
 }
