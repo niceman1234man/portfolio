@@ -31,7 +31,6 @@ header {
 
 .tool-bar img:hover {
   background-color: #344563;
-  transition: 0.3;
   color: white;
 }
 
@@ -51,7 +50,6 @@ header {
 
 .tool-bar #logo:hover {
   background-color: cadetblue;
-  transition: 0.3;
   color: white;
 }
 
@@ -64,7 +62,7 @@ header {
   width: 70%;
   height: 20%;
   padding-right: 5%;
-  font-weight: 2em;
+  font-weight: 500;
   font-size: 1.5em;
   line-height: 130%;
   color: #172b4d;
@@ -107,7 +105,6 @@ main {
 
 .icons img:hover {
   background-color: cadetblue;
-  transition: 0.3;
   color: white;
 }
 
