@@ -126,3 +126,15 @@ main {
     height: 100%;
   }
 }
+.block{
+  width: 50%;
+  height: 29%;
+}
+.block #block-header{
+  width: 50%;
+  height: 8%;
+}
+.frame{
+  width: 34%;
+  height: 3%;
+}
