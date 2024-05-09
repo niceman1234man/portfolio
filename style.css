@@ -99,8 +99,8 @@ main {
 }
 
 .icons {
-  width: 100%;
-  height: 12%;
+  width: 50%;
+  height: 8%;
 }
 
 .icons img:hover {
@@ -126,15 +126,56 @@ main {
     height: 100%;
   }
 }
-.block{
+.block {
   width: 50%;
   height: 29%;
 }
-.block #block-header{
+.block #block-header {
   width: 50%;
   height: 8%;
 }
-.frame{
+.frame {
   width: 34%;
   height: 3%;
+}
+.tags ul{
+  display: flex;
+}
+.tags ul li {
+  background-color: #ebebff;
+  list-style-type: none;
+  border-radius: 10%;
+  padding: 2% 4%;
+  height: 10%;
+  width: 30%;
+  margin: 2%;
+  flex: 1;
+ 
+}
+#button {
+  padding: 2%;
+  border-radius: 8%;
+  margin-left: 12%;
+}
+.skills{
+  display: flex;
+  width: 100%;
+}
+.skill-detail li{
+list-style-type: none;
+font-size: 700;
+padding: 3%;
+flex: 50%;
+margin-right: 5%;
+}
+.skill-detail-drop li{
+  list-style-type: none;
+padding: 3%;
+flex: 50%;
+margin-left: 7%;
+}
+#resume-button{
+  float: left;
+  margin: 2%;
+  border-radius: 8%;
 }
