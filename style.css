@@ -6,7 +6,7 @@
     /* width: 50%; */
     justify-content: center;
   }
-  
+
   .header {
     width: 80vw;
   }
@@ -36,7 +36,6 @@
   }
 
   .main-part {
-    
     display: flex;
     flex-direction: column;
     background-image: url(images/background.jpg);
@@ -115,7 +114,8 @@
     justify-content: center;
     width: 80vw;
   }
-  .contact-address{
+
+  .contact-address {
     list-style-type: none;
   }
 
