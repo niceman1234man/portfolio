@@ -138,7 +138,7 @@ main {
   width: 34%;
   height: 3%;
 }
-.tags ul{
+.tags ul {
   display: flex;
 }
 .tags ul li {
@@ -150,32 +150,72 @@ main {
   width: 30%;
   margin: 2%;
   flex: 1;
- 
 }
-#button {
-  padding: 2%;
+.works-work1 {
+  justify-content: center;
+  list-style-type: none;
+}
+.works-work1 .main-list {
+  margin: 2%;
+  border: 1px solid #dfe1e6;
   border-radius: 8%;
-  margin-left: 12%;
+  padding: 2%;
 }
-.skills{
+.work1-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+.works-work1 img {
+  width: 90%;
+  height: 50%;
+}
+.used-skills {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+.used-skills li {
+  margin: 2%;
+  background-color: #ebebff;
+  padding: 1.5%;
+}
+.skills {
   display: flex;
   width: 100%;
 }
-.skill-detail li{
-list-style-type: none;
-font-size: 700;
-padding: 3%;
-flex: 50%;
-margin-right: 5%;
+#work1-button {
+  padding: 1% 2%;
+  margin-top: 5%;
+  border-radius: 8%;
 }
-.skill-detail-drop li{
+#work1-button:hover {
+  cursor: pointer;
+}
+.skill-detail li {
   list-style-type: none;
-padding: 3%;
-flex: 50%;
-margin-left: 7%;
+  font-size: 700;
+  padding: 3%;
+  flex: 50%;
+  margin-right: 5%;
 }
-#resume-button{
+.skill-detail-drop li {
+  list-style-type: none;
+  padding: 3%;
+  flex: 50%;
+  margin-left: 7%;
+}
+#resume-button {
   float: left;
   margin: 2%;
   border-radius: 8%;
+}
+.form-list {
+  list-style-type: none;
+  padding: 1% 2%;
+  width: 30%;
+}
+.form-list li {
+  margin: 1%;
+  width: 30%;
 }
