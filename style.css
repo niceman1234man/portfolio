@@ -1,150 +1,172 @@
-@media only screen  and (min-width: 375px){
-body {
-  /* padding: 0% 10%; */
-  box-sizing: border-box;
-  /* width: 50%; */
-  justify-content: center;
-}
-.header{
-  width: 80vw;
-}
-.headline,.tool-bar,.main-part,.address{
-  list-style-type: none;
-  
-}
-.tool-bar,.main-part,.address{
-  
-  display: flex;
-  justify-content: space-around;
- 
-}
-.tool-bar #logo{
-  width: 20%;
-  height: 25%;
-}
-.tool-bar #image{
-  width: 30%;
-  height: 25%;
-}
-.main-part{
-  
-  display: flex;
-  flex-direction: column;
-  background-image: url(images/background.jpg);
-}
-.address{
-  
-  display: flex;
-  
-}
-.address img{
-  padding: 5%;
-}
-.address img:hover{
-  background-color: #172b4d;
-}
-.works-work1 {
-  justify-content: center;
-  list-style-type: none;
-}
-.works-work1 .main-list {
-  margin: 2%;
-  border: 1px solid #dfe1e6;
-  border-radius: 8%;
-  padding: 2%;
-}
-.work1-list {
-  display: flex;
-  list-style-type: none;
-  justify-content: space-around;
-}
-.works-work1 img {
-  width: 90%;
-  height: 50%;
-}
-.used-skills {
-  display: flex;
-  list-style-type: none;
-  justify-content: space-around;
-}
-.used-skills li {
-  margin: 2%;
-  background-color: #ebebff;
-  padding: 1.5%;
-}
-.skills {
-  display: flex;
-  width: 100%;
-}
-#work1-button {
-  padding: 1.5% 3%;
-  margin:5% 0% 5% 5%;
+@media only screen  and (min-width: 375px) {
+  body {
+    /* padding: 0% 10%; */
+    box-sizing: border-box;
 
-  border-radius: 8%;
-}
-#work1-button:hover {
-  cursor: pointer;
-}
+    /* width: 50%; */
+    justify-content: center;
+  }
 
-.about-myself{
-  border: 1px solid #ebebff;
-  border-radius: 8%;
-  height: 80vh; 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 80vw;
-  
+  .header {
+    width: 80vw;
+  }
 
-}
-.contact-address .list {
-  list-style-type: none;
-  display:flex;
-  flex-direction:row;
-  justify-content: space-around;
-}
-.contact-address li a{
-  padding: 5%;
-  width: 8%;
-}
-.contact-address li a:hover {
- background-color: #172b4d;
-  
-  
-}
-.about-myself .list{
-  list-style-type: none;
-  /* margin-top: 1%; */
-}
-.list .skill-detail{
-  list-style-type: none;
+  .headline,
+  .tool-bar,
+  .main-part,
+  .address {
+    list-style-type: none;
+  }
+
+  .tool-bar,
+  .main-part,
+  .address {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .tool-bar #logo {
+    width: 20%;
+    height: 25%;
+  }
+
+  .tool-bar #image {
+    width: 30%;
+    height: 25%;
+  }
+
+  .main-part {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/background.jpg);
+  }
+
+  .address {
+    display: flex;
+  }
+
+  .address img {
+    padding: 5%;
+  }
+  .works-work1 img {
+    width: 90%;
+    height: 50%;
+  }
+  .address img:hover {
+    background-color: #172b4d;
+  }
+
+  .works-work1 {
+    justify-content: center;
+    list-style-type: none;
+  }
+
+  .works-work1 .main-list {
+    margin: 2%;
+    border: 1px solid #dfe1e6;
+    border-radius: 8%;
+    padding: 2%;
+  }
+
+  .work1-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+  }
+
  
-  float: left;
-}
-.list .skill-detail li{
-  padding: 5%;
-}
-.skill-detail-drop{
-  list-style-type: none;
- float: right;
- margin-right: 5%;
+
+  .used-skills {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+  }
+
+  .used-skills li {
+    margin: 2%;
+    background-color: #ebebff;
+    padding: 1.5%;
+  }
+
+  .skills {
+    display: flex;
+    width: 100%;
+  }
+
+  #work1-button {
+    padding: 1.5% 3%;
+    margin: 5% 0% 5% 5%;
+    border-radius: 8%;
+  }
+
+  #work1-button:hover {
+    cursor: pointer;
+  }
+
+  .about-myself {
+    border: 1px solid #ebebff;
+    border-radius: 8%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+  }
+
+  .contact-address .list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .contact-address li a {
+    padding: 5%;
+    width: 8%;
+  }
+
+  .contact-address li a:hover {
+    background-color: #172b4d;
+  }
+
+  .about-myself .list {
+    list-style-type: none;
+
+    /* margin-top: 1%; */
+  }
+
+  .list .skill-detail {
+    list-style-type: none;
+    float: left;
+  }
+  .skill-detail-drop li {
+    padding: 5%;
+  }
+  .list .skill-detail li {
+    padding: 5%;
+  }
+
+  .skill-detail-drop {
+    list-style-type: none;
+    float: right;
+    margin-right: 5%;
+  }
+
  
-  
-}
-.skill-detail-drop li{
-  padding:5%;
-}
-#resume-button{
-  padding: 1.5% 3%;
-  border-radius: 8%;
-  margin: 5% 0%;
-}
-#resume-button:hover{
-  cursor: pointer;
-}
-.works{
-  border: 1px solid hwb(0 97% 3%);
-  background-color: #f4f4f8;
-  width: 90vw;
-}
+
+  #resume-button {
+    padding: 1.5% 3%;
+    border-radius: 8%;
+    margin: 5% 0%;
+  }
+
+  #resume-button:hover {
+    cursor: pointer;
+  }
+
+  .works {
+    border: 1px solid hwb(0 97% 3%);
+    background-color: #f4f4f8;
+    width: 90vw;
+  }
 }
