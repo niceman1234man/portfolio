@@ -76,8 +76,6 @@
     justify-content: space-around;
   }
 
-
-
   .used-skills {
     display: flex;
     list-style-type: none;
@@ -156,7 +154,7 @@
     margin-right: 5%;
   }
 
-  #resume-button{
+  #resume-button {
     padding: 1.5% 3%;
     border-radius: 8%;
     margin: 5% 0%;
@@ -166,7 +164,7 @@
     cursor: pointer;
   }
 
-  .works { 
+  .works {
     background-color: #f4f4f8;
     width: 90vw;
   }
