@@ -1,121 +1,45 @@
+@media only screen  and (min-width: 375px){
 body {
   padding: 0% 10%;
   box-sizing: border-box;
-}
-
-header {
-  width: 100%;
-  height: 10%;
-  background-color: white;
-  padding-left: 5%;
-  padding-right: 8%;
-}
-
-#othr-style {
   width: 50%;
-  height: 10%;
-  flex: 20%;
-  padding-right: 5%;
+  justify-content: center;
+}
+.header{
+  width: 80vw;
+}
+.headline,.tool-bar,.main-part,.address{
+  list-style-type: none;
+  
+}
+.tool-bar,.main-part,.address{
+  
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.tool-bar #logo{
+  width: 20%;
+  height: 25%;
+}
+.tool-bar #image{
+  width: 30%;
+  height: 25%;
+}
+.main-part{
+  
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/background.jpg);
+}
+.address{
+  
+  display: flex;
+  
 }
 
-.tool-bar {
-  width: 60%;
-  height: 50%;
-  padding-top: 2%;
-}
 
-.icons img {
-  padding: 3%;
-  display: inline;
-}
-
-.tool-bar img:hover {
-  background-color: #344563;
-  color: white;
-}
-
-.tool-bar #logo {
-  float: left;
-  width: 12%;
-  height: 12%;
-  padding: 2%;
-}
-
-.tool-bar #image {
-  float: right;
-  width: 12%;
-  height: 12%;
-  padding: 2%;
-}
-
-.tool-bar #logo:hover {
-  background-color: cadetblue;
-  color: white;
-}
-
-.headline {
-  width: 60%;
-  height: 13%;
-}
-
-.heading {
-  width: 70%;
-  height: 20%;
-  padding-right: 5%;
-  font-weight: 500;
-  font-size: 1.5em;
-  line-height: 130%;
-  color: #172b4d;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.paragraph {
-  width: 70%;
-  height: 50%;
-  font-weight: 400;
-  font-size: 1.2em;
-  line-height: 150%;
-  color: #344563;
-}
-
-.address {
-  width: 50%;
-  height: 5%;
-  font-weight: 500;
-  font-size: 1.2em;
-  line-height: 150%;
-  color: #7f8cff;
-}
-
-main {
-  width: 100%;
-  height: 90%;
-  padding-left: 5%;
-  padding-right: 8%;
-  overflow-x: hidden;
-  background-image: url("images/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.icons {
-  width: 50%;
-  height: 8%;
-}
-
-.icons img:hover {
-  background-color: cadetblue;
-  color: white;
-}
-
-@media screen and (max-width: 767px) and (min-width: 375px) {
-  header,
-  main {
-    color: white;
-  }
-}
-
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   header,
   main {
     color: white;
@@ -149,8 +73,8 @@ main {
   height: 10%;
   width: 30%;
   margin: 2%;
-  flex: 1;
-}
+  flex: 1; */ */
+/* } */
 .works-work1 {
   justify-content: center;
   list-style-type: none;
@@ -185,37 +109,71 @@ main {
   width: 100%;
 }
 #work1-button {
-  padding: 1% 2%;
-  margin-top: 5%;
+  padding: 1.5% 3%;
+  margin:5% 0% 5% 5%;
+
   border-radius: 8%;
 }
 #work1-button:hover {
   cursor: pointer;
 }
-.skill-detail li {
-  list-style-type: none;
-  font-size: 700;
-  padding: 3%;
-  flex: 50%;
-  margin-right: 5%;
-}
-.skill-detail-drop li {
-  list-style-type: none;
-  padding: 3%;
-  flex: 50%;
-  margin-left: 7%;
-}
-#resume-button {
-  float: left;
-  margin: 2%;
+
+.about-myself{
+  border: 1px solid #ebebff;
   border-radius: 8%;
+  height: 80vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+  
+
 }
-.form-list {
+.contact-address .list {
   list-style-type: none;
-  padding: 1% 2%;
-  width: 30%;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
 }
-.form-list li {
-  margin: 1%;
-  width: 30%;
+.contact-address li a{
+  padding: 5%;
+  width: 8%;
+}
+.contact-address li a:hover {
+ background-color: #172b4d;
+  
+  
+}
+.about-myself .list{
+  list-style-type: none;
+  /* margin-top: 1%; */
+}
+.list .skill-detail{
+  list-style-type: none;
+ 
+  float: left;
+}
+.list .skill-detail li{
+  padding: 5%;
+}
+.skill-detail-drop{
+  list-style-type: none;
+ float: right;
+ margin-right: 5%;
+ 
+  
+}
+.skill-detail-drop li{
+  padding:5%;
+}
+#resume-button{
+  padding: 1.5% 3%;
+  border-radius: 8%;
+  margin: 5% 0%;
+}
+.works{
+  border: 2px solid green;
+  
+  width: 90vw;
+}
 }
