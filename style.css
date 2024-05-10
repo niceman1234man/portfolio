@@ -6,7 +6,7 @@
     /* width: 50%; */
     justify-content: center;
   }
-
+  
   .header {
     width: 80vw;
   }
@@ -36,9 +36,12 @@
   }
 
   .main-part {
+    
     display: flex;
     flex-direction: column;
     background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .address {
@@ -72,7 +75,7 @@
 
   .work1-list {
     display: flex;
-    list-style-type: none;
+    list-style-type: disc;
     justify-content: space-around;
   }
 
@@ -111,6 +114,9 @@
     flex-direction: column;
     justify-content: center;
     width: 80vw;
+  }
+  .contact-address{
+    list-style-type: none;
   }
 
   .contact-address .list {
