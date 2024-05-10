@@ -174,4 +174,9 @@
     background-color: #f4f4f8;
     width: 90vw;
   }
+  .works-work1:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    cursor: pointer;
+  }
 }
