@@ -1,0 +1,59 @@
+@media only screen and (min-width:768px){
+    body{
+        padding: 0% 3%;
+    }
+
+.main-list{
+   
+    display: flex;
+    flex-direction: row-reverse;
+}
+.main-list1{
+   
+    display: flex;
+   
+}
+.main-list img{
+    height: 50%;
+   
+}
+
+.about-myself-skill{
+    display: flex;
+    width: 100%;
+}
+.about-myself-detail{
+    width: 50%;
+}
+.skill-detail{
+    width: 50%;
+}
+.header-list-info {
+    display: flex;
+    justify-content: center;
+    visibility: visible;
+width: 30%;
+   
+}
+.header-list-info li,a{
+    list-style-type: none;
+    justify-content:space-between;
+    margin: 20%;
+    text-decoration: none;
+    padding: 10%;
+    padding-right: 30%;
+}
+.header-list-info li:hover{
+    background-color: rgb(202, 203, 205);
+}
+.tool-bar #image{
+    visibility: hidden;
+}
+.main-list #work2{
+    flex-direction: row-reverse;
+}
+.form{
+   height: 100%;
+}
+
+}
