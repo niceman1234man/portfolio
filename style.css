@@ -216,4 +216,7 @@
     background-color: #cdcfd3;
     cursor: pointer;
   }
+  .header-list-info{
+    visibility: hidden;
+  }
 }
