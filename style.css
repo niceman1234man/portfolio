@@ -1,128 +1,183 @@
-body {
-  padding: 0% 10%;
-  box-sizing: border-box;
-}
-
-header {
-  width: 100%;
-  height: 10%;
-  background-color: white;
-  padding-left: 5%;
-  padding-right: 8%;
-}
-
-#othr-style {
-  width: 50%;
-  height: 10%;
-  flex: 20%;
-  padding-right: 5%;
-}
-
-.tool-bar {
-  width: 60%;
-  height: 50%;
-  padding-top: 2%;
-}
-
-.icons img {
-  padding: 3%;
-  display: inline;
-}
-
-.tool-bar img:hover {
-  background-color: #344563;
-  color: white;
-}
-
-.tool-bar #logo {
-  float: left;
-  width: 12%;
-  height: 12%;
-  padding: 2%;
-}
-
-.tool-bar #image {
-  float: right;
-  width: 12%;
-  height: 12%;
-  padding: 2%;
-}
-
-.tool-bar #logo:hover {
-  background-color: cadetblue;
-  color: white;
-}
-
-.headline {
-  width: 60%;
-  height: 13%;
-}
-
-.heading {
-  width: 70%;
-  height: 20%;
-  padding-right: 5%;
-  font-weight: 500;
-  font-size: 1.5em;
-  line-height: 130%;
-  color: #172b4d;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.paragraph {
-  width: 70%;
-  height: 50%;
-  font-weight: 400;
-  font-size: 1.2em;
-  line-height: 150%;
-  color: #344563;
-}
-
-.address {
-  width: 50%;
-  height: 5%;
-  font-weight: 500;
-  font-size: 1.2em;
-  line-height: 150%;
-  color: #7f8cff;
-}
-
-main {
-  width: 100%;
-  height: 90%;
-  padding-left: 5%;
-  padding-right: 8%;
-  overflow-x: hidden;
-  background-image: url("images/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.icons {
-  width: 100%;
-  height: 12%;
-}
-
-.icons img:hover {
-  background-color: cadetblue;
-  color: white;
-}
-
-@media screen and (max-width: 767px) and (min-width: 375px) {
-  header,
-  main {
-    color: white;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  header,
-  main {
-    color: white;
-  }
-
+@media only screen  and (min-width: 375px) {
   body {
-    max-width: 100%;
-    height: 100%;
+    /* padding: 0% 10%; */
+    box-sizing: border-box;
+
+    /* width: 50%; */
+    justify-content: center;
+  }
+
+  .header {
+    width: 80vw;
+  }
+
+  .headline,
+  .tool-bar,
+  .main-part,
+  .address {
+    list-style-type: none;
+  }
+
+  .tool-bar,
+  .main-part,
+  .address {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .tool-bar #logo {
+    width: 20%;
+    height: 25%;
+  }
+
+  .tool-bar #image {
+    width: 30%;
+    height: 25%;
+  }
+
+  .main-part {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .address {
+    display: flex;
+  }
+
+  .address img {
+    padding: 5%;
+  }
+
+  .works-work1 img {
+    width: 90%;
+    height: 50%;
+  }
+
+  .address img:hover {
+    background-color: #172b4d;
+  }
+
+  .works-work1 {
+    justify-content: center;
+    list-style-type: none;
+  }
+
+  .works-work1 .main-list {
+    margin: 2%;
+    border: 1px solid #dfe1e6;
+    border-radius: 8%;
+    padding: 2%;
+  }
+
+  .work1-list {
+    display: flex;
+    list-style-type: disc;
+    justify-content: space-around;
+  }
+
+  .used-skills {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+  }
+
+  .used-skills li {
+    margin: 2%;
+    background-color: #ebebff;
+    padding: 1.5%;
+  }
+
+  .skills {
+    display: flex;
+    width: 100%;
+  }
+
+  #work1-button {
+    padding: 1.5% 3%;
+    margin: 5% 0% 5% 5%;
+    border-radius: 8%;
+  }
+
+  #work1-button:hover {
+    cursor: pointer;
+  }
+
+  .about-myself {
+    border: 1px solid #ebebff;
+    border-radius: 8%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+  }
+
+  .contact-address {
+    list-style-type: none;
+  }
+
+  .contact-address .list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .contact-address li a {
+    padding: 5%;
+    width: 8%;
+  }
+
+  .contact-address li a:hover {
+    background-color: #172b4d;
+  }
+
+  .about-myself .list {
+    list-style-type: none;
+
+    /* margin-top: 1%; */
+  }
+
+  .list .skill-detail {
+    list-style-type: none;
+    float: left;
+  }
+
+  .skill-detail-drop li {
+    padding: 5%;
+  }
+
+  .list .skill-detail li {
+    padding: 5%;
+  }
+
+  .skill-detail-drop {
+    list-style-type: none;
+    float: right;
+    margin-right: 5%;
+  }
+
+  #resume-button {
+    padding: 1.5% 3%;
+    border-radius: 8%;
+    margin: 5% 0%;
+  }
+
+  #resume-button:hover {
+    cursor: pointer;
+  }
+
+  .works {
+    background-color: #f4f4f8;
+    width: 90vw;
+  }
+
+  .works-work1:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+    cursor: pointer;
   }
 }
