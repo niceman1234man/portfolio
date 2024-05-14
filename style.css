@@ -1,9 +1,9 @@
+
 @media only screen  and (min-width: 375px) {
   body {
     /* padding: 0% 10%; */
     box-sizing: border-box;
-
-    /* width: 50%; */
+    width: 50%;
     justify-content: center;
   }
 
@@ -179,5 +179,47 @@
     transform: scale(1.1);
     transition-duration: 1s;
     cursor: pointer;
+  }
+
+  /* form css */
+  .form {
+    width: 80vw;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30%;
+    background-image: url(images/contact.png);
+    background-size: cover;
+    border: 1px solid rgb(255, 254, 254);
+    border-top-left-radius: 8%;
+  }
+
+  .form-list {
+    list-style-type: none;
+  }
+
+  .form-list li input,
+  textarea {
+    padding: 1%;
+    margin: 1%;
+    width: 50%;
+    border-radius: 8%;
+    height: 30%;
+  }
+
+  #button {
+    width: 25%;
+    height: 30%;
+    padding: 1%;
+    border-radius: 8%;
+  }
+
+  #button:hover {
+    background-color: #cdcfd3;
+    cursor: pointer;
+  }
+
+  .header-list-info {
+    visibility: hidden;
   }
 }
