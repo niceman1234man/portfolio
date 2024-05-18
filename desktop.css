@@ -61,4 +61,29 @@
   .form {
     height: 100%;
   }
+  #languages{
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    display: none;
+   
+  
+  }
+#languages img{
+    height:60%;
+    width: 90%;
+  }
+  #languages li{
+    display: flex;
+    flex-direction: column;
+    background-color: #d5d8dc;
+    justify-content: space-between;
+    margin: 2%;
+    border-radius: 12%;
+    padding: 2%;
+  }
+  
 }
