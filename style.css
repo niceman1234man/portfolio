@@ -125,9 +125,17 @@
     justify-content: space-around;
   }
 
+  .header-list-info a {
+    text-decoration: none;
+  }
+
   .contact-address li a {
     padding: 5%;
     width: 8%;
+  }
+
+  .header-list-info a:hover {
+    background-color: #edeef1;
   }
 
   .contact-address li a:hover {
@@ -145,15 +153,13 @@
     float: left;
   }
 
- 
-
   .list .skill-detail li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 130%;
-  
   }
+
   #resume-button {
     padding: 1.5% 3%;
     border-radius: 8%;
@@ -217,30 +223,24 @@
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    
-  }
-  .header-list-info a{
-    text-decoration-style: none;
-
   }
 
-#languages{
-    display:flex;
+  #languages {
+    display: flex;
     flex-direction: column;
     list-style-type: none;
     height: 50%;
     width: 50%;
     justify-content: center;
-    display: none;
-   
-  
   }
-  #languages img{
+
+  #languages img {
     justify-content: center;
     height: 50%;
     width: 50%;
   }
-  #languages li{
+
+  #languages li {
     display: flex;
     flex-direction: column;
     background-color: #d5d8dc;
@@ -249,26 +249,17 @@
     border-radius: 12%;
     padding: 2%;
   }
-#xsign{
-  width: 30%;
-  height: 40%;
-  visibility: hidden;
-  background-color: #172b4d;
-  margin-left: 30%;
-}
-.header-list-info{
-  visibility: collapse;
-}
-.navbar{
-  display: flex;
-  flex-direction: column;
-}
- .header-list-info a{
- text-decoration: none;
- }
- .header-list-info a:hover{
-  background-color: #edeef1;
- }
+
+  #xsign {
+    width: 30%;
+    height: 40%;
+    visibility: hidden;
+    background-color: #172b4d;
+    margin-left: 30%;
   }
 
-  
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -62,22 +62,22 @@
   .form {
     height: 100%;
   }
-  #languages{
-    display:flex;
+
+  #languages {
+    display: flex;
     flex-direction: row;
     list-style-type: none;
     height: 50%;
     width: 100%;
     justify-content: center;
-    display: none;
-   
-  
   }
-#languages img{
-    height:60%;
+
+  #languages img {
+    height: 60%;
     width: 90%;
   }
-  #languages li{
+
+  #languages li {
     display: flex;
     flex-direction: column;
     background-color: #d5d8dc;
@@ -86,7 +86,8 @@
     border-radius: 12%;
     padding: 2%;
   }
-  #xsign{
+
+  #xsign {
     width: 30%;
     height: 40%;
     visibility: hidden;
