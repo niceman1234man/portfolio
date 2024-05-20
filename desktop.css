@@ -31,6 +31,7 @@
 
   .header-list-info {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     visibility: visible;
     width: 30%;
@@ -85,5 +86,9 @@
     border-radius: 12%;
     padding: 2%;
   }
-  
+  #xsign{
+    width: 30%;
+    height: 40%;
+    visibility: hidden;
+  }
 }
