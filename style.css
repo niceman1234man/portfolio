@@ -287,8 +287,6 @@
   .po-up-list{
    display: flex;
    justify-content: center;
-
-
   }
    .po-up-list li{
     text-wrap: wrap;
