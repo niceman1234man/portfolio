@@ -233,7 +233,6 @@
     height: 50%;
     width: 50%;
     justify-content: center;
-    display: none;
   }
 
   #languages img {
@@ -264,17 +263,17 @@
     display: flex;
     flex-direction: column;
   }
-  
-   /* .pop-up-detail,.po-up-list{
+
+  /* .pop-up-detail,.po-up-list{
     list-style-type: none;
     justify-content: center;
-   
+
   }
   .pop-up-display,.button{
     display: flex;
     margin: 1%;
     padding: 2%;
-    
+
   }
   p{
     width: 80%;
@@ -288,8 +287,8 @@
   .po-up-list{
    display: flex;
    justify-content: center;
-   
-  
+
+
   }
    .po-up-list li{
     text-wrap: wrap;
@@ -304,22 +303,25 @@
   }
   .pop-up-mainu{
     display: none;
-  } 
+  }
   .pop-up-mainu{
     transform: scale(2);
-    
+
   } */
-  #email-error{
-    width: 100%;
-    
-    color: red;
-  }
-  #username-error{
+  #email-error {
     width: 100%;
     color: red;
   }
-  #username,#email,#textarea{
-    font-size:x-large;
+
+  #username-error {
+    width: 100%;
+    color: red;
+  }
+
+  #username,
+  #email,
+  #textarea {
+    font-size: x-large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 }
