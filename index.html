@@ -27,9 +27,9 @@
             </li>
           <li>
             <ul class="header-list-info" id="nav">
-              <li><a href="">Portfolio</a></li>
+              <li><a href="#main-part">Portfolio</a></li>
               <li><a href="#list">About</a></li>
-              <li><a href="">Contact</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </li>
         </div>
@@ -163,9 +163,12 @@
           <li>CSS</li>
           <li>JavaScript</li>
       </ul>
-      <button id="work1-button">See Projects</button>
+      <button id="work1-button1">See Projects</button>
     </div>
    </li >
+   
+   </div>
+
    <li  class="main-list">
     <img src="images\work4.png" alt="">
   <div>
@@ -195,7 +198,7 @@
    <ul class="about-myself">
     <div class="about-myself-skill">
     <div class="about-myself-detail">
-       <li class="list">
+       <li class="list" id="list">
         <h2>ABOUT MYSELF</h2>
          <p>
        I am computer science student. I want to be software developer which
@@ -203,7 +206,7 @@
        world and I will share my experience to the world.Have Good time
        with me.
        </p>
-      <ul class="contact-address">
+      <ul class="contact-address" id="contact">
       <li>
       <h2>LET'S CONNECT</h2>
       
@@ -291,12 +294,14 @@
     <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
       I’d love to help with it!</p>
       <form action="https://formspree.io/f/mrgndqyo" method="post">
-        <ul class="form-list">
+        <ul class="form-list" id="form">
           <li>
-            <input type="text" name="fullname" placeholder="Lorem Ipsum" required maxlength="30">
+            <input type="text" name="fullname" id="username" placeholder="Lorem Ipsum"  onkeyup="validatename()">
+            <p id="username-error"></p>
           </li>
           <li>
-            <input type="email" name="email" placeholder="loremipsum@gmail.com" required>
+            <input type="email" name="email" placeholder="loremipsum@gmail.com" id="email"  onkeyup="validate()">
+            <p id="email-error"></p>
           </li>
           <li>
             <textarea name="text" id="textarea" placeholder="Write your text here" rows="6" cols="40" required maxlength="500"></textarea>
