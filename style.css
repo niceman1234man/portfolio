@@ -151,6 +151,7 @@
   .list .skill-detail {
     list-style-type: none;
     float: left;
+    margin: 2%;
   }
 
   .list .skill-detail li {
@@ -184,7 +185,7 @@
   /* form css */
   .form {
     width: 80vw;
-    height: 100vw;
+    height: 130vw;
     display: flex;
     flex-direction: column;
     padding-left: 30%;
@@ -202,9 +203,9 @@
   textarea {
     padding: 1%;
     margin: 1%;
-    width: 50%;
+    width: 80%;
     border-radius: 8%;
-    height: 30%;
+    height: 20%;
   }
 
   #button {
@@ -232,12 +233,13 @@
     height: 50%;
     width: 50%;
     justify-content: center;
+    display: none;
   }
 
   #languages img {
     justify-content: center;
-    height: 50%;
-    width: 50%;
+    height: 20%;
+    width: 20%;
   }
 
   #languages li {
@@ -261,5 +263,63 @@
   .navbar {
     display: flex;
     flex-direction: column;
+  }
+  
+   /* .pop-up-detail,.po-up-list{
+    list-style-type: none;
+    justify-content: center;
+   
+  }
+  .pop-up-display,.button{
+    display: flex;
+    margin: 1%;
+    padding: 2%;
+    
+  }
+  p{
+    width: 80%;
+  }
+  .pop-up-list-button{
+    width: 30%;
+    justify-content: center;
+    margin-right: 10%;
+  }
+
+  .po-up-list{
+   display: flex;
+   justify-content: center;
+   
+  
+  }
+   .po-up-list li{
+    text-wrap: wrap;
+    margin: 2%;
+    background-color: #e7eaf0;
+    padding: 2%;
+
+  }
+  #cancelsign{
+    width: 10%;
+    height: 10%;
+  }
+  .pop-up-mainu{
+    display: none;
+  } 
+  .pop-up-mainu{
+    transform: scale(2);
+    
+  } */
+  #email-error{
+    width: 100%;
+    
+    color: red;
+  }
+  #username-error{
+    width: 100%;
+    color: red;
+  }
+  #username,#email,#textarea{
+    font-size:x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 }
