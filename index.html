@@ -5,34 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My first website</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="desktop.css">
   </head>
   <body>
     <section class="header">
       <ul class="headline">
         <ul class="tool-bar">
-        
           <li>
             <img id="logo" title="My Logo" src="images/logo.png" alt="MY logo" />
           </li>
-         <li>
-           <img
-            id="image"
-            src="images/toolbar.png"
-            alt=" menu"
-            width="10px"
-            height="20px"
-            />
+          <div class="navbar">
+          <li>
+            <img src="images/x.png" id="xsign"  alt="x sign-ups">
+             <img
+              id="image"
+              src="images/toolbar.png"
+              alt=" menu"
+              width="10px"
+              height="20px"
+              />
+            </li>
+          <li>
+            <ul class="header-list-info" id="nav">
+              <li><a href="#main-part">Portfolio</a></li>
+              <li><a href="#list">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
           </li>
+        </div>
         </ul>
-        
         <ul class="main-part" >
-        
-
          <!-- <div class="heading"> -->
           <li>
           <h2>I AM YIHUNIE. Glad to see you.</h2>
          <!-- </div> -->
-
          <!-- <div class="paragraph"> -->
           <p>
             I am computer science student. I want to be software developer which
@@ -102,8 +108,10 @@
    <section  class="works">
      <ul class="works-work1">
        <h1>My Recent Works</h1>
-       <li class="main-list">
-          <img src="images\work1.png" alt="">
+       <div class="group">
+       <li class="main-list1">
+          <img src="images\work1.png" alt="" id="firstimage">
+         <div>
           <h1>Tonic</h1>
           <ul class="work1-list">
             <b>Canopy</b>
@@ -117,9 +125,11 @@
               <li>JavaScript</li>
           </ul>
           <button id="work1-button">See Projects</button>
+        </div>
        </li>
-       <li  class="main-list">
+       <li  class="main-list " id="work2">
         <img src="images\work2.png" alt="">
+        <div>
         <h1>Multi-Post
           Stories</h1>
         <ul class="work1-list">
@@ -134,9 +144,13 @@
             <li>JavaScript</li>
         </ul>
         <button id="work1-button">See Projects</button>
+      </div>
      </li>
-     <li  class="main-list">
+    </div>
+    <div class="group2">
+     <li  class="main-list1">
       <img src="images\work3.png" alt="">
+    <div>
       <h1>Tonic</h1>
       <ul class="work1-list">
         <b>Canopy</b>
@@ -149,10 +163,15 @@
           <li>CSS</li>
           <li>JavaScript</li>
       </ul>
-      <button id="work1-button">See Projects</button>
+      <button id="work1-button1">See Projects</button>
+    </div>
    </li >
+   
+   </div>
+
    <li  class="main-list">
     <img src="images\work4.png" alt="">
+  <div>
     <h1>Multi-Post
       Stories</h1>
     <ul class="work1-list">
@@ -167,15 +186,16 @@
         <li>JavaScript</li>
     </ul>
     <button id="work1-button">See Projects</button>
+  </div>
  </li>
+</div>
     </ul>
  </section>
-
-
-
- <section>
+ <section class="about">
    <ul class="about-myself">
-       <li class="list">
+    <div class="about-myself-skill">
+    <div class="about-myself-detail">
+       <li class="list" id="list">
         <h2>ABOUT MYSELF</h2>
          <p>
        I am computer science student. I want to be software developer which
@@ -183,7 +203,7 @@
        world and I will share my experience to the world.Have Good time
        with me.
        </p>
-      <ul class="contact-address">
+      <ul class="contact-address" id="contact">
       <li>
       <h2>LET'S CONNECT</h2>
       
@@ -194,7 +214,6 @@
        target="_blank"
        rel="noopener"
        ><img
-
          src="images/github.png"
 
          alt="github"
@@ -242,23 +261,50 @@
       </li>
      </ul>
      <button id="resume-button">Get my resume</button>
-
       </li>
-
+    </div>
+  <div class="skill-detail">
       <li class="list" >
-
          <ul class="skill-detail">
-        <li>Languages       </li>
-        <li>Frameworks  </li>
-       <li>Skills  </li>
+        <li>Languages     
+          <ul id="languages">
+            <li><img src="images/js.png" alt="JavaScript">JavaScript</li>
+            <li><img src="images/html.png" alt="HTML">HTML</li>
+            <li><img src="images/css.png" alt="CSS">CSS</li>
+          </ul>
+          <span><h1 id="toggleButton">&gt</h1></span> </li>
+        <li>Frameworks <span><h1 id="toggleButton">&gt</h1> </span></li>
+       <li>Skills <span><h1 id="toggleButton">&gt</h1></span>  </li>
         </ul>
-        <ul class="skill-detail-drop">
-        <li>&gt       </li>
-        <li>&gt    </li>
-         <li>&gt    </li>
          </div>
          </li>
+        </div>
+      </div>
      </ul>
   </section>
+  <div class="form">
+    <h1>Contact me</h1>
+    <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
+      I’d love to help with it!</p>
+      <form action="https://formspree.io/f/mrgndqyo" method="post">
+        <ul class="form-list" id="form">
+          <li>
+            <input type="text" name="fullname" id="username" placeholder="Lorem Ipsum"  >
+            <p id="username-error"></p>
+          </li>
+          <li>
+            <input type="email" name="email" placeholder="loremipsum@gmail.com" id="email"  >
+            <p id="email-error"></p>
+          </li>
+          <li>
+            <textarea name="text" id="textarea" placeholder="Write your text here" rows="6" cols="40" required maxlength="500"></textarea>
+          </li>
+          
+            <input id="button" type="submit" value="Get In Touch">
+          
+        </ul>
+      </form>
+   </div>
+   <script src="index.js"></script>
   </body>
 </html>
