@@ -34,6 +34,8 @@
     flex-direction: row;
     justify-content: center;
     visibility: visible;
+    font-size: large;
+    font-weight: bold;
     width: 30%;
   }
 
@@ -44,15 +46,16 @@
     margin: 20%;
     text-decoration: none;
     padding: 10%;
-    padding-right: 30%;
+    padding-right: 40%;
   }
 
   .header-list-info li:hover {
-    background-color: rgb(202, 203, 205);
+    background-color: rgb(184, 184, 186);
+    color: white;
   }
 
   .tool-bar #image {
-    visibility: hidden;
+ display: none;
   }
 
   .main-list #work2 {
@@ -70,6 +73,7 @@
     height: 50%;
     width: 100%;
     justify-content: center;
+    display: none;
   }
 
   #languages img {
@@ -90,6 +94,6 @@
   #xsign {
     width: 30%;
     height: 40%;
-    visibility: hidden;
+    display: none;
   }
 }
