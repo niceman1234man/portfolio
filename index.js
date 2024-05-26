@@ -1,19 +1,23 @@
-if (window.innerWidth > 375 && window.innerWidth < 767) {
-  document.getElementById('image').onclick = () => {
-    document.getElementById('image').style.visibility = 'hidden';
-    document.getElementById('xsign').style.visibility = 'visible';
-    document.getElementById('nav').style.visibility = 'visible';
-  };
-  document.getElementById('xsign').onclick = () => {
-    document.getElementById('image').style.visibility = 'visible';
-    document.getElementById('xsign').style.visibility = 'hidden';
-    document.getElementById('nav').style.visibility = 'hidden';
-  };
-} else if (window.innerWidth > 768) {
+
+document.getElementById('image').onclick = () => {
   document.getElementById('image').style.visibility = 'hidden';
+  document.getElementById('xsign').style.visibility = 'visible';
+  var headerListInfo = document.getElementsByClassName('header-list-info');
+  for (var i = 0; i < headerListInfo.length; i++) {
+    headerListInfo[i].style.visibility = 'visible';
+  }
+};
+
+document.getElementById('xsign').onclick = () => {
+  document.getElementById('image').style.visibility = 'visible';
   document.getElementById('xsign').style.visibility = 'hidden';
-  document.getElementById('nav').style.visibility = 'visible';
-}
+  var headerListInfo = document.getElementsByClassName('header-list-info');
+  for (var i = 0; i < headerListInfo.length; i++) {
+    headerListInfo[i].style.visibility = 'hidden';
+  }
+};
+ 
+ 
 
 // Initial visibility update when the page loads
 
