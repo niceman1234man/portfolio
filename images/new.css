@@ -1,0 +1,15 @@
+.main,.ul1{
+    display: flex;
+    justify-content: space-around;
+}
+.main{
+    border: 1px solid black;
+    width: 90%;
+}
+.sub,.sub2{
+    width: 50%;
+}
+.main:hover{
+    transform: scale(1.3);
+    transition-duration: 1s;
+}
