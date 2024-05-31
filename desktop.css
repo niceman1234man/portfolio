@@ -1,0 +1,98 @@
+@media only screen and (min-width: 768px) {
+  body {
+    padding: 0% 3%;
+  }
+
+  .main-list {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .main-list1 {
+    display: flex;
+  }
+
+  .main-list img {
+    height: 50%;
+  }
+
+  .about-myself-skill {
+    display: flex;
+    width: 100%;
+  }
+
+  .about-myself-detail {
+    width: 50%;
+  }
+
+  .skill-detail {
+    width: 50%;
+  }
+
+  .header-list-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    visibility: visible;
+    font-size: large;
+    font-weight: bold;
+    width: 30%;
+  }
+
+  .header-list-info li,
+  a {
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 20%;
+    text-decoration: none;
+    padding: 10%;
+    padding-right: 40%;
+  }
+
+  .header-list-info li:hover {
+    background-color: rgb(184, 184, 186);
+    color: white;
+  }
+
+  .tool-bar #image {
+    display: none;
+  }
+
+  .main-list #work2 {
+    flex-direction: row-reverse;
+  }
+
+  .form {
+    height: 100%;
+  }
+
+  #languages {
+    flex-direction: row;
+    list-style-type: none;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    display: none;
+  }
+
+  #languages img {
+    height: 60%;
+    width: 90%;
+  }
+
+  #languages li {
+    display: flex;
+    flex-direction: column;
+    background-color: #d5d8dc;
+    justify-content: space-between;
+    margin: 2%;
+    border-radius: 12%;
+    padding: 2%;
+  }
+
+  #xsign {
+    width: 30%;
+    height: 40%;
+    display: none;
+  }
+}

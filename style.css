@@ -1,9 +1,8 @@
-@media only screen  and (min-width: 375px) {
+@media only screen and (min-width: 375px) {
   body {
     /* padding: 0% 10%; */
     box-sizing: border-box;
-
-    /* width: 50%; */
+    width: 50%;
     justify-content: center;
   }
 
@@ -33,6 +32,7 @@
   .tool-bar #image {
     width: 30%;
     height: 25%;
+    visibility: visible;
   }
 
   .main-part {
@@ -126,10 +126,18 @@
     justify-content: space-around;
   }
 
+  .header-list-info a {
+    text-decoration: none;
+  }
+
   .contact-address li a {
     padding: 5%;
     width: 8%;
   }
+
+  /* .header-list-info a:hover {
+    background-color: #edeef1;
+  } */
 
   .contact-address li a:hover {
     background-color: #172b4d;
@@ -144,20 +152,14 @@
   .list .skill-detail {
     list-style-type: none;
     float: left;
-  }
-
-  .skill-detail-drop li {
-    padding: 5%;
+    margin: 2%;
   }
 
   .list .skill-detail li {
-    padding: 5%;
-  }
-
-  .skill-detail-drop {
-    list-style-type: none;
-    float: right;
-    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 130%;
   }
 
   #resume-button {
@@ -179,5 +181,153 @@
     transform: scale(1.1);
     transition-duration: 1s;
     cursor: pointer;
+  }
+
+  /* form css */
+  .form {
+    width: 80vw;
+    height: 130vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30%;
+    background-image: url(images/contact.png);
+    background-size: cover;
+    border: 1px solid rgb(255, 254, 254);
+    border-top-left-radius: 8%;
+  }
+
+  .form-list {
+    list-style-type: none;
+  }
+
+  .form-list li input,
+  textarea {
+    padding: 1%;
+    margin: 1%;
+    width: 80%;
+    border-radius: 8px;
+    height: 20%;
+  }
+
+  #button {
+    width: 25%;
+    height: 30%;
+    padding: 1%;
+    border-radius: 8px;
+  }
+
+  #button:hover {
+    background-color: #cdcfd3;
+    cursor: pointer;
+  }
+
+  .header-list-info {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    visibility: hidden;
+  }
+
+  #languages {
+    flex-direction: column;
+    list-style-type: none;
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    display: none;
+  }
+
+  #languages img {
+    justify-content: center;
+    height: 20%;
+    width: 20%;
+  }
+
+  #languages li {
+    display: flex;
+    flex-direction: column;
+    background-color: #d5d8dc;
+    justify-content: space-between;
+    margin: 2%;
+    border-radius: 12%;
+    padding: 2%;
+  }
+
+  #xsign {
+    width: 30%;
+    height: 40%;
+    visibility: hidden;
+    background-color: #172b4d;
+    margin-left: 30%;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* .pop-up-detail,.po-up-list{
+    list-style-type: none;
+    justify-content: center;
+
+  }
+  .pop-up-display,.button{
+    display: flex;
+    margin: 1%;
+    padding: 2%;
+
+  }
+  p{
+    width: 80%;
+  }
+  .pop-up-list-button{
+    width: 30%;
+    justify-content: center;
+    margin-right: 10%;
+  }
+
+  .po-up-list{
+   display: flex;
+   justify-content: center;
+  }
+   .po-up-list li{
+    text-wrap: wrap;
+    margin: 2%;
+    background-color: #e7eaf0;
+    padding: 2%;
+
+  }
+  #cancelsign{
+    width: 10%;
+    height: 10%;
+  }
+  .pop-up-mainu{
+    display: none;
+  }
+  .pop-up-mainu{
+    transform: scale(2);
+
+  } */
+  .header-list-info li a:hover {
+    background-color: #cdcfd3;
+    padding: 5%;
+    color: white;
+  }
+
+  #email-error {
+    width: 100%;
+    color: red;
+  }
+
+  #username-error {
+    width: 100%;
+    color: red;
+  }
+
+  #username,
+  #email,
+  #textarea {
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 }
