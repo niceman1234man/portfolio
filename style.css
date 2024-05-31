@@ -28,7 +28,6 @@
     width: 20%;
     height: 25%;
   }
-  
 
   .tool-bar #image {
     width: 30%;
@@ -226,12 +225,10 @@
     display: flex;
     flex-direction: column;
     list-style-type: none;
-
- visibility: hidden;
+    visibility: hidden;
   }
 
   #languages {
-    display: flex;
     flex-direction: column;
     list-style-type: none;
     height: 50%;
@@ -311,11 +308,12 @@
     transform: scale(2);
 
   } */
-  .header-list-info li a:hover{
+  .header-list-info li a:hover {
     background-color: #cdcfd3;
     padding: 5%;
     color: white;
   }
+
   #email-error {
     width: 100%;
     color: red;
