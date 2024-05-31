@@ -1,9 +1,8 @@
-
 document.getElementById('image').onclick = () => {
   document.getElementById('image').style.visibility = 'hidden';
   document.getElementById('xsign').style.visibility = 'visible';
-  var headerListInfo = document.getElementsByClassName('header-list-info');
-  for (var i = 0; i < headerListInfo.length; i++) {
+  const headerListInfo = document.getElementsByClassName('header-list-info');
+  for (let i = 0; i < headerListInfo.length; i + 1) {
     headerListInfo[i].style.visibility = 'visible';
   }
 };
@@ -11,13 +10,11 @@ document.getElementById('image').onclick = () => {
 document.getElementById('xsign').onclick = () => {
   document.getElementById('image').style.visibility = 'visible';
   document.getElementById('xsign').style.visibility = 'hidden';
-  var headerListInfo = document.getElementsByClassName('header-list-info');
-  for (var i = 0; i < headerListInfo.length; i++) {
+  const headerListInfo = document.getElementsByClassName('header-list-info');
+  for (let i = 0; i < headerListInfo.length; i + 1) {
     headerListInfo[i].style.visibility = 'hidden';
   }
 };
- 
- 
 
 // Initial visibility update when the page loads
 
