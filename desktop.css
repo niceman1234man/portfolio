@@ -55,7 +55,7 @@
   }
 
   .tool-bar #image {
- display: none;
+    display: none;
   }
 
   .main-list #work2 {
@@ -67,7 +67,6 @@
   }
 
   #languages {
-    display: flex;
     flex-direction: row;
     list-style-type: none;
     height: 50%;
